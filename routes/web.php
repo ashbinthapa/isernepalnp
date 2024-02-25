@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/header', function () {
-    return view('layouts/header');
-});
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
+Route::get('/header', function () {
+    return view('layouts.header');
+});
+
+Route::get('/footer', function () {
+    return view('layouts.footer');
+});
