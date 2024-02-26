@@ -1,0 +1,4 @@
+.footer-details a {
+    text-decoration: none !important; /* Remove underlines from anchor tags */
+    color: white;
+}

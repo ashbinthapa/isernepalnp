@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="{{ asset('resources/css/app.css') }}">
+<link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom.css') }}">
 <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+
+<title>Institute for Social and Environmental Research Nepal</title>
 
 {{-- div for the main header logo section --}}
 
@@ -92,16 +96,57 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
           About Us
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Introduction</a></li>
             <li><a class="dropdown-item" href="#">Working Approach</a></li>
             <li><a class="dropdown-item" href="#">Governance</a></li>
-            <li><a class="dropdown-item" href="#">Working Approach</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Human Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Board Members</a></li>
+                <li><a class="dropdown-item" href="#">General Members</a></li>
+                <li><a class="dropdown-item" href="#">National Researchers</a></li>
+                <li><a class="dropdown-item" href="#">International Researchers</a></li>
+                <li><a class="dropdown-item" href="#">Scholars</a></li>
+                <li><a class="dropdown-item" href="#">Staff</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#">Research Infrastructures</a></li>
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Finance Management
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Funding Agencies</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Collaboration
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">National</a></li>
+                <li><a class="dropdown-item" href="#">International</a></li>
+                <li><a class="dropdown-item" href="#">Collaborate With Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Work With Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Career @ Iser-N</a></li>
+                <li><a class="dropdown-item" href="#">Training @ ISER-N</a></li>
+                <li><a class="dropdown-item" href="#">As a Respondent</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#">Gallery</a></li>
+            <li><a class="dropdown-item" href="#">Contact</a></li>
           </ul>
         </li>
         <!--
