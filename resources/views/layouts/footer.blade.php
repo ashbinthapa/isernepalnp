@@ -1,6 +1,6 @@
 <footer class="fixed-bottom">
-    <div class="container-fluid p-5 custom-footer-style footer-details">
-        <div class="row">
+    <div class="container-fluid p-5 custom-footer-style footer-details footer-design">
+        <div class="row m-5">
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <h4>Contact Details</h4>
                 <ul class="list-unstyled">
@@ -13,13 +13,11 @@
                     <li><i class="fa fa-clock-o" aria-hidden="true"></i>
                     10 A.M. - 5 P.M.</li>
                     <li>
-                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-media-facebook">
+                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-icons-size">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-media-facebook">
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank" class="social-icons-size">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
@@ -97,7 +95,6 @@
         </div>    
     </div>
 </footer>
-
 <script src="{{ asset('resources/js/app.js') }}"></script>
 <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
 <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
