@@ -1,7 +1,7 @@
-<footer class="footer footer-details fixed-bottom mx-auto p-5" style="color: white; background: linear-gradient(125deg, rgb(1, 39, 76), rgb(63, 113, 114));">
-    <div class="container">
+<footer class="fixed-bottom">
+    <div class="container-fluid p-5 custom-footer-style footer-details">
         <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <h4>Contact Details</h4>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-map" aria-hidden="true"></i>
@@ -12,9 +12,19 @@
                     iser.nepal@outlook.com</li>
                     <li><i class="fa fa-clock-o" aria-hidden="true"></i>
                     10 A.M. - 5 P.M.</li>
+                    <li>
+                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-media-facebook">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-media-facebook">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <h4>Forms</h4>
                 <ul class="list-unstyled">
                     <li><a href="#"> <i class="fa fa-link" aria-hidden="true"></i>
@@ -23,7 +33,7 @@
                     Survey Data Analysis Training</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <h4>Important Links</h4>
                 <ul class="list-unstyled">
                     <li><a href="https://cvfs.isr.umich.edu/"> <i class="fa fa-link" aria-hidden="true"></i>
@@ -56,59 +66,38 @@
                     Other Links</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div id="recent_posts-2" class="widget_social_links widget-item widget_recent_posts">
-                    <div class="wrap-recent-posts">
-		                <h4>Latest Events/News</h4>	
-                    	<div class="sh-recent-posts-widgets">
-                            <div class="sh-recent-posts-widgets-item">	
-                                <span class="post-meta-categories">
-                                    <a href="https://isernepal.org.np/category/announcement/">Announcement</a>						        
-                                </span>
-                                <a href="https://isernepal.org.np/vacancy-announcement-for-project-manager/">
-                                    <h6>VACANCY ANNOUNCEMENT FOR PROJECT MANAGER</h6>
-                                </a>
-                            </div>		
-                            <div class="sh-recent-posts-widgets-item">
-                                <span class="post-meta-categories">
-                                    <a href="https://isernepal.org.np/category/announcement/">Announcement</a>						       
-                                 </span>
-                                <a href="https://isernepal.org.np/vacancy-announcement-for-research-assistant-and-interviewers/">
-                                    <h6>VACANCY ANNOUNCEMENT FOR RESEARCH ASSISTANT/INTERVIEWERS</h6>
-                                </a>
-                            </div>
-                        </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h4>Latest Events/News</h4>	
+                <div class="sh-recent-posts-widgets">
+                    <div class="sh-recent-posts-widgets-item">	
+                        <span class="post-meta-categories">
+                            <a href="https://isernepal.org.np/category/announcement/">Announcement</a>						        
+                        </span>
+                        <a href="https://isernepal.org.np/vacancy-announcement-for-project-manager/">
+                            <h6>VACANCY ANNOUNCEMENT FOR PROJECT MANAGER</h6>
+                        </a>
+                    </div>		
+                    <div class="sh-recent-posts-widgets-item">
+                        <span class="post-meta-categories">
+                            <a href="https://isernepal.org.np/category/announcement/">Announcement</a>						       
+                            </span>
+                        <a href="https://isernepal.org.np/vacancy-announcement-for-research-assistant-and-interviewers/">
+                            <h6>VACANCY ANNOUNCEMENT FOR RESEARCH ASSISTANT/INTERVIEWERS</h6>
+                        </a>
                     </div>
-	            </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="sh-copyrights">
-		<div class="container container-padding">		
-			<div class="sh-copyrights-style1">
-				<div class="sh-table-full">
-    				<div class="sh-table-cell">	
-                        <div class="sh-copyrights-text">
-                            <span>© Institute for Social and Environmental Research – Nepal</span>
-                        </div>						
-                    </div>
-                </div>
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <span>© Institute for Social and Environmental Research – Nepal</span>
             </div>
-            <div class="sh-copyrights-style1" style="float: right;">
-                <div class="sh-table-cell">
-                    <div class="sh-copyrights-social">
-                        <a href="https://www.facebook.com/isernepalofficial/" target="_blank" class="social-media-facebook">
-                            <i class="icon-social-facebook"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank" class="social-media-linkedin">
-                            <i class="icon-social-linkedin"></i>
-                        </a>
-					</div>
-                </div>
-            </div>    
-        </div>
+        </div>    
     </div>
 </footer>
+
 <script src="{{ asset('resources/js/app.js') }}"></script>
 <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
 <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
