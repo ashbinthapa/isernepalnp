@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +30,7 @@ Route::get('/footer', function () {
 Auth::routes();
 
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
+
+Route::prefix('admin')->group(function () {
+    Route::resource('pages', PageController::class);
+});
