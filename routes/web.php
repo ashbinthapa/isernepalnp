@@ -25,3 +25,6 @@ Route::get('/header', function () {
 Route::get('/footer', function () {
     return view('layouts.footer');
 });
+Auth::routes();
+
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
